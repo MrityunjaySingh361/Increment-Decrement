@@ -6,8 +6,8 @@ function App(){
   <div className="meradiv">
     <h2>My first project here</h2>
     <h1>{data}</h1>
- <button onClick={()=>setData (data+1)} >increament </button>
- <button  onClick={()=>setData (data-1)}>decrememt</button>
+ <button onClick={()=>setData (data+1)} >increment </button>
+ <button  onClick={()=>setData (data-1)}>decrement</button>
   </div>
   )
 }
